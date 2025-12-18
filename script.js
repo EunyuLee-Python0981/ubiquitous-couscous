@@ -1,7 +1,7 @@
 let level = 0;
 
 
-const chances = [90, 80, 70, 60, 50, 40, 30, 20, 10, 1];
+const chances = [100, 90, 80, 70, 60, 50, 40, 30, 20, 5];
 
 
 const levelEl = document.getElementById('level');
