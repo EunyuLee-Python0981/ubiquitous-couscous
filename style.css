@@ -1,0 +1,76 @@
+* {
+}
+
+
+.card {
+background: #23264a;
+border-radius: 12px;
+padding: 16px;
+margin-bottom: 12px;
+text-align: center;
+}
+
+
+.level {
+font-size: 2rem;
+font-weight: bold;
+margin: 8px 0;
+}
+
+
+.bar {
+background: #101325;
+border-radius: 10px;
+overflow: hidden;
+height: 14px;
+margin: 10px 0;
+}
+
+
+.bar-fill {
+height: 100%;
+width: 0%;
+background: linear-gradient(90deg, #4facfe, #00f2fe);
+transition: width 0.3s ease;
+}
+
+
+.chance {
+font-size: 0.9rem;
+opacity: 0.85;
+}
+
+
+.buttons {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10px;
+margin-top: 12px;
+}
+
+
+button {
+background: #2e33ff;
+border: none;
+border-radius: 10px;
+padding: 10px;
+color: white;
+font-size: 0.9rem;
+cursor: pointer;
+}
+
+
+button:hover {
+background: #4449ff;
+}
+
+
+.log {
+margin-top: 12px;
+background: #101325;
+border-radius: 10px;
+padding: 8px;
+font-size: 0.8rem;
+height: 60px;
+overflow-y: auto;
+}
